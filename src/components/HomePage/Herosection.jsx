@@ -1,6 +1,6 @@
 "use server";
 import React from "react";
-import HeroImage from "../../../public/Assets/HomePage/ORANGE.jpg";
+import HeroImage from "../../../public/Assets/HomePage/shoesBanner1.jpg";
 import Image from "next/image";
 import { Box } from "@mui/material";
 
@@ -10,7 +10,12 @@ const Herosection = async () => {
       <Image
         src={HeroImage}
         alt="athulnaz-hero-image"
-        style={{ maxWidth: "100%", height: "auto", background: "#FAFAFA" }}
+        style={{
+          maxWidth: "100%",
+          height: "auto",
+          background: "#FAFAFA",
+          width: "100%",
+        }}
       />
     </Box>
   );
