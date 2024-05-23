@@ -152,7 +152,7 @@ export const UserNav = ({
             display={"flex"}
             sx={{ justifyContent: "center" }}
           >
-            <Link href="/">
+            {/* <Link href="/">
               <Image
                 src={Logo}
                 alt="logo"
@@ -162,7 +162,7 @@ export const UserNav = ({
                   maxHeight: "28px",
                 }}
               />
-            </Link>
+            </Link> */}
           </Box>
           <Box
             minWidth={"50%"}
