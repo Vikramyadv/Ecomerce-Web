@@ -1,0 +1,40 @@
+.heading {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.sub__heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(110, 110, 110);
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.close__icon {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.nav__links__parent::-webkit-scrollbar {
+  display: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+  span {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    // text-align: left;
+  }
+}
