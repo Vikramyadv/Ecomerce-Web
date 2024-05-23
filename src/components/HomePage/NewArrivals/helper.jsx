@@ -11,7 +11,7 @@ import shoeImage from "../../../../public/Assets/HomePage/shoeImage.png";
 export const newArrivalcardData = [
   {
     id: 1,
-    brand: "Athlunaz",
+    brand: "Laugh India",
     name: "Men Court Ultra Lite Sneakers",
     sellPrice: " 4500",
     offerPrice: "3600",

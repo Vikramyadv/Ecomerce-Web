@@ -212,7 +212,7 @@ const ProductSection = ({ children }) => {
 
       <Box sx={style.rightContainer}>
         <Typography sx={style.title}>
-          Athlunaz 4DFWD <br />X PARLEY RUNNING SHOES
+          Laugh India 4DFWD <br />X PARLEY RUNNING SHOES
         </Typography>
         <Typography sx={style.price}>Rs 1,250</Typography>
         <Rating name="read-only" value={5} readOnly sx={{ my: "1rem" }} />
